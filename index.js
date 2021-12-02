@@ -164,7 +164,7 @@ function game(question,option,answer)
     console.log(chalk.red("Oops Wrong:("));
   }
 console.log("Current score : ",score);
-  if(score===5)
+  if(score===6)
   {
     console.log(chalk.magenta('Yayy!! You have beaten the highscore!!'));
   }
