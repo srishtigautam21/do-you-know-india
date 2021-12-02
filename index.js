@@ -168,6 +168,7 @@ console.log("Current score : ",score);
   {
     console.log(chalk.magenta('Yayy!! You have beaten the highscore!!'));
   }
+  
   console.log('----------------------------------------------');
   
 }
@@ -198,15 +199,23 @@ var q4=
 }
 var q5=
 {
+  question:"What is the capital city of Chattisgarh?  ",
+  options:"1.Raipur  \n2.Mumbai  \n3.Itanagar \n4.Patna\n  ",
+  answer: '1'
+}
+var q6=
+{
   question:"What is the highest mountain in the world? ",
   options:"1.K2  \n2.Kanchunjanga  \n3.Mount Kilimanjaro \n4.Mount Everest\n  ",
   answer: '4'
+
 }
-var questions=[q1,q2,q3,q4,q5];
+var questions=[q1,q2,q3,q4,q5,q6];
 for(var i=0;i<questions.length;i++)
 {
   game(questions[i].question,questions[i].options,questions[i].answer);
 }
+
 console.log(chalk.red('                         END                               '));
 
 
